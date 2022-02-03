@@ -59,6 +59,11 @@ hr {
   width: 40%;
 }
 
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
 .bottomleft {
   position: absolute;
   bottom: 0;
@@ -68,6 +73,8 @@ hr {
   background: inherit;
   background-attachment: fixed;
   overflow: hidden;
+  display: flex;
+  justify-content: center;
 }
 .bottomleft::before {
   content: "";
@@ -99,8 +106,8 @@ hr {
 }
 
 .copyright {
-  display: flex;
-  justify-content: center;
+  /* display: flex;
+  justify-content: center; */
 }
 
 .smear {
@@ -123,7 +130,7 @@ hr {
     </div>
     <div class='bottomleft' id='footer'>
       <!-- <h1>Testing image softener</h1> -->
-      <p class='copyright'>Copyright © 2022 <a href='http://www.thaddeuskruse.dev'>Thaddeus Kruse, LLC</a> All Rights Reserved</p>
+      <p class='copyright'>© 2022 <a href='http://www.thaddeuskruse.dev'>Thaddeus Kruse, LLC</a></p>
     </div>
     <!-- <div>
       <p class='copyright'>Copyright © 2022 <a href='http://www.thaddeuskruse.dev'>Thaddeus Kruse, LLC</a> All Rights Reserved</p>
